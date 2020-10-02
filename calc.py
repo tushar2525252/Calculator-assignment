@@ -15,7 +15,13 @@ elif op == '/' :
     ans = num1 / num2
     if num2 == 0 :
         print("Denominator should not be 0")
-    else:
+elif op == '%' :
+    ans = num1 % num2
+    print("Result is : ", ans)
+elif op == '**' :
+    ans = num1 ** num2
+    print("Result is : ", ans)    
+       else:
         print("Result is : ", ans)
 else:
     print("invalid inputs!")
